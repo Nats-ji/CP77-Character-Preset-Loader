@@ -1,0 +1,3 @@
+presets/
+character_preset_loader*.log
+db.sqlite3
