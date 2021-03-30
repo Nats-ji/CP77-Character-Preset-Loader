@@ -1,4 +1,4 @@
-presets/
+presets/*.preset
 character_preset_loader*.log
 db.sqlite3
 .github/
