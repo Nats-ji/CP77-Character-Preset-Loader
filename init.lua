@@ -26,7 +26,7 @@ registerForEvent("onDraw", function()
   if drawWindow then
     ImGui.SetNextWindowPos(wWidth/2, wHeight/2, ImGuiCond.FirstUseEver)
     CPS.setThemeBegin()
-    ImGui.Begin("Character Preset Loader", ImGuiWindowFlags.NoResize | ImGuiWindowFlags.AlwaysAutoResize)
+    ImGui.Begin("Character Preset Loader", bit32.bor(ImGuiWindowFlags.NoResize, ImGuiWindowFlags.AlwaysAutoResize))
     CPS.setFrameThemeBegin()
     UISystem.DropDown()
     UISystem.LoadButton()
