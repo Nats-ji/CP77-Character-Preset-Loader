@@ -8,8 +8,9 @@
 
 ## Install
 1. Install the latest version of Cyber Engine Tweaks
-2. Download and extract the files
-3. Copy "character_preset_loader" to "Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks\mods\"
+2. Install the latest version of [CPStyling](https://www.nexusmods.com/cyberpunk2077/mods/1718/)
+3. Download and extract the files
+4. Copy "character_preset_loader" to "Cyberpunk 2077\bin\x64\plugins\cyber_engine_tweaks\mods\"
 
 ## Current Bug
 - Visual glitch in character customization menu when loading a preset.
