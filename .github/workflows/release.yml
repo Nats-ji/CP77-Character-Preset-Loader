@@ -14,7 +14,6 @@ jobs:
         run: |
           mkdir ./presets/
           mkdir -p ./build/tmp/bin/x64/plugins/cyber_engine_tweaks/mods/ ./build/release/
-          rm ./CPStyling/README.md
           rsync -a ./ ./build/tmp/bin/x64/plugins/cyber_engine_tweaks/mods/character_preset_loader/ --exclude={.git/,build/,.gitignore,.github/,README.md}
       - name: Zip Release
         uses: TheDoctor0/zip-release@0.4.1
